@@ -2,7 +2,7 @@ Library of Agent Skills I've developed and use.
 
 ## Recursive Code Review
 
-Recursive local code review skill that teaches how to review uncommitted changes before they’re finalized by creating a separation between the "builder" and the "reviewer." Instead of letting the main agent judge its own work, it delegates review to a separate subagent whose job is to critique the diff. This review-fix cycle continues until reviewers stop finding meaningful issues.
+Adversarial subagent code review skill that teaches how to review uncommitted changes before they’re finalized by creating a separation between the "builder" and the "reviewer." Instead of letting the main agent judge its own work, it delegates review to a separate subagent whose job is to critique the diff. This review-fix cycle continues until reviewers stop finding meaningful issues.
 
 Install:
 
