@@ -18,7 +18,7 @@ Evaluate whether a repository is positioned for effective AI-assisted developmen
 Install:
 
 ```
-npx skills add angiejones/skills --skill recursive-code-review -g
+npx skills add angiejones/skills --skill repo-readiness -g
 ```
 
 ## Skills CLI Guide
