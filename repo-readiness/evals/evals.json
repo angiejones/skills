@@ -1,0 +1,26 @@
+{
+  "skill_name": "repo-readiness",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "basic-readiness-assessment",
+      "prompt": "I'd like to evaluate my repository to see if it's ready for AI-assisted development. Can you run an assessment and explain what the results mean?",
+      "expected_output": "Agent runs the evaluation script, displays the readiness score and level, explains what it means in practical terms, and provides prioritized recommendations.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "help-create-agents-md",
+      "prompt": "My repository got a low readiness score. The top recommendation is to create AGENTS.md. Can you help me create one based on a typical web application project?",
+      "expected_output": "Agent provides a template or guide for creating AGENTS.md, tailored to a web app with examples of what to include.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "full-improvement-plan",
+      "prompt": "I want to make my repository more AI-friendly. Can you evaluate it, explain the results, and then help me create the top 3 missing artifacts to improve the score?",
+      "expected_output": "Agent runs evaluation, explains the score, identifies the 3 highest-impact missing artifacts, and provides templates or guidance for creating each one.",
+      "files": []
+    }
+  ]
+}
