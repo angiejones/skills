@@ -1,6 +1,9 @@
 ---
 name: recursive-code-review
-description: Perform iterative local code reviews on uncommitted changes using a dedicated review subagent. Use when reviewing staged or unstaged diffs or improving code quality before commit.
+description: Use this skill when reviewing uncommitted code changes, improving code quality before commit, or performing iterative feedback cycles on staged or unstaged diffs. Especially useful when the user wants deeper critique, multiple review passes, or systematic refinement before opening a PR.
+metadata:
+  author: angiejones
+  version: "1.0"
 ---
 
 # recursive-code-review

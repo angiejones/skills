@@ -1,6 +1,9 @@
 ---
 name: repo-readiness
-description: Evaluate whether a repository is ready for AI-assisted development. Use this skill whenever a user wants to assess their repo's AI-readiness, or when they ask about improving their codebase for better AI collaboration. The skill checks for agent context files (AGENTS.md, CLAUDE.md), instruction files (copilot-instructions.md), and repeatable AI workflows (SKILL.md files). Analyzes the repository, explains the readiness score, recommends high-impact improvements, and helps create missing artifacts if the user requests it.
+description: Use this skill when evaluating whether a repository is ready for AI-assisted development, improving how coding agents operate within a codebase, or identifying missing context and workflow documentation. Especially useful when the user wants better AI collaboration, more reliable agent behavior, or standardized AI workflows across a repository. Checks for agent context files, coding instructions, and reusable AI workflows, then recommends high-impact improvements and can help create missing artifacts on request.
+metadata:
+  author: angiejones
+  version: "1.0"
 ---
 
 # repo-readiness

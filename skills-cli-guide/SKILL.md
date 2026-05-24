@@ -1,6 +1,6 @@
 ---
 name: skills-cli-guide
-description: Understand and verify the Agent Skills CLI syntax (npx skills). Use when you need to understand how to install, find, update, validate, uninstall, troubleshoot, or document skills.
+description: Use this skill when working with the Agent Skills CLI (npx skills), including installing, finding, updating, validating, uninstalling, troubleshooting, or documenting skills. Especially useful when the user needs correct command usage, help resolving CLI errors, or guidance managing skills locally.
 license: Apache-2.0
 compatibility: Requires Node.js/npm for npx skills commands; optional skills-ref validation for local skill package validation.
 metadata:
@@ -22,7 +22,7 @@ To get list of available commands and options, run:
 npx skills --help
 ```
 
-Use the output from the CLI as the source of truth.
+Use the output from the CLI as the source of truth. The CLI source code is available at https://github.com/vercel-labs/skills
 
 ## Installation Location
 
