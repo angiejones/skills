@@ -22,7 +22,9 @@ To get list of available commands and options, run:
 npx skills --help
 ```
 
-Use the output from the CLI as the source of truth. The CLI source code is available at https://github.com/vercel-labs/skills
+The CLI source code is available at https://github.com/vercel-labs/skills, and its [README.md](https://github.com/vercel-labs/skills/blob/main/README.md#skills) file lists all of the available commands and options with usage instructions. When unsure, consult the README.
+
+Use the output from the CLI as the source of truth. 
 
 ## Installation Location
 
